@@ -19,3 +19,5 @@ print(agent)
 print(agent.keys())
 print(agent.values())
 print(agent.items())
+#mission 8
+print("score" in agent)
