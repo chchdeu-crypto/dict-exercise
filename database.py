@@ -3,3 +3,6 @@ agent= {"name":"alpha","level":3,"active":True}
 print(agent)
 #mission 2
 print(agent["name"])
+#mission 3
+print(agent.get("level"))
+print(agent.get("la"))
