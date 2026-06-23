@@ -12,3 +12,6 @@ print(agent)
 #mission 5
 agent["level"]=5
 print(agent)
+#mission 6
+del agent["active"]
+print(agent)
