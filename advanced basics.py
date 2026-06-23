@@ -16,3 +16,10 @@ print(try_pop.pop("age"))
 #misson 4
 nested={"server":{"host":"localhost","port":80}}
 print(nested["server"]["port"])
+#mission 5
+items=["a","b","a","c","b","a"]
+freq={}
+freq["a"]=items.count("a")
+freq["b"]=items.count("b")
+freq["c"]=items.count("c")
+print(freq)
