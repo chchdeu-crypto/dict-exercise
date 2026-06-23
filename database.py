@@ -15,3 +15,7 @@ print(agent)
 #mission 6
 del agent["active"]
 print(agent)
+#missin 7
+print(agent.keys())
+print(agent.values())
+print(agent.items())
