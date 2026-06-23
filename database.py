@@ -21,3 +21,6 @@ print(agent.values())
 print(agent.items())
 #mission 8
 print("score" in agent)
+#mission 9
+scores={"alpha":80,"bravo":95,"charlie":70}
+print(max(scores))
