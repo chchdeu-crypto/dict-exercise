@@ -24,3 +24,8 @@ print("score" in agent)
 #mission 9
 scores={"alpha":80,"bravo":95,"charlie":70}
 print(max(scores))
+#mission 10
+new_agents=agent.copy()
+new_agents["name"]="chaim"
+print(agent)
+print(new_agents)
