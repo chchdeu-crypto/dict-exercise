@@ -6,3 +6,6 @@ print(agent["name"])
 #mission 3
 print(agent.get("level"))
 print(agent.get("la"))
+#mission 4
+agent["score"]=95
+print(agent)
