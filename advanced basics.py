@@ -11,5 +11,8 @@ merged=d1 | d2
 print(merged)
 #mission 3
 try_pop= {"name":"chaim","age":21}
-#print(try_pop.pop("age"))
-print(try_pop.pop("ch"))
+print(try_pop.pop("age"))
+#print(try_pop.pop("ch"))
+#misson 4
+nested={"server":{"host":"localhost","port":80}}
+print(nested["server"]["port"])
